@@ -109,11 +109,31 @@ body {
   background: lightblue;
 }
 
+header {
+  border: 1px solid gold;
+  padding: 15px;
+  width: 1200px;
+  color: teal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+main {
+  border: 1px solid gold;
+  padding: 15px;
+  width: 1200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: teal;
+  text-align: center;
+}
 .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: 700;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
@@ -126,18 +146,29 @@ body {
   color: teal;
   line-height: 1.5em;
   font-size: 1em;
-  height: 230px;
+  height: 220px;
+  margin-bottom: 10px;
 }
 
 .div-2 {
-    border-left: 2px solid gold;
+    border-left: 1px solid gold;
     padding-left: 20px;
 }
 
 .div-3 {
-    border-left: 2px solid gold;
+    border-left: 1px solid gold;
 }
 
+footer {
+  text-align: center;
+  color: teal;
+  float: left;
+  border: 1px solid gold;
+  width: 1200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: .75em;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
